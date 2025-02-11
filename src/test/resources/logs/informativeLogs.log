@@ -1,0 +1,9 @@
+13:29:09.241 INFO  AUTOMATION - Suite iniciada: Default Suite
+13:29:09.493 INFO  AUTOMATION - Setup del padre
+13:29:11.674 INFO  AUTOMATION - Comenzando el test: fallatest
+13:29:11.722 INFO  AUTOMATION - navegando a :https://the-internet.herokuapp.com/
+13:29:14.110 INFO  AUTOMATION - Obteniendo url actual
+13:29:14.123 INFO  AUTOMATION - Verificando la url
+13:29:14.144 INFO  AUTOMATION - Test fallido: fallatest
+13:29:14.423 INFO  AUTOMATION - Teardown del padre
+13:29:14.634 INFO  AUTOMATION - Suite finalizada: Default Suite
