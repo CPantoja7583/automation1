@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import utilities.BaseTest;
 import utilities.Logs;
 
-public class Automation extends BaseTest {
+public class AutomationTests extends BaseTest {
     @Test
     public void fallatest() {
 
