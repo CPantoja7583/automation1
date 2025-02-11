@@ -1,16 +1,16 @@
-14:23:45.769 INFO  AUTOMATION - Suite iniciada: Surefire suite
-14:23:46.012 INFO  AUTOMATION - Setup del padre
-14:23:48.802 INFO  AUTOMATION - Comenzando el test: fallatest
-14:23:48.833 INFO  AUTOMATION - navegando a :https://the-internet.herokuapp.com/
-14:23:50.996 INFO  AUTOMATION - Obteniendo url actual
-14:23:51.009 INFO  AUTOMATION - Verificando la url
-14:23:51.051 INFO  AUTOMATION - Test fallido: fallatest
-14:23:51.382 INFO  AUTOMATION - Teardown del padre
-14:23:51.579 INFO  AUTOMATION - Setup del padre
-14:23:53.001 INFO  AUTOMATION - Comenzando el test: tecnovatest
-14:23:53.001 INFO  AUTOMATION - Navegando a : https://opencart.abstracta.us/index.php?route=account/login
-14:23:54.109 INFO  AUTOMATION - Obteniendo url actual
-14:23:54.131 INFO  AUTOMATION - verificando la url
-14:23:54.138 INFO  AUTOMATION - Test fallido: tecnovatest
-14:23:54.295 INFO  AUTOMATION - Teardown del padre
-14:23:54.648 INFO  AUTOMATION - Suite finalizada: Surefire suite
+15:03:32.659 INFO  AUTOMATION - Suite iniciada: Surefire suite
+15:03:32.981 INFO  AUTOMATION - Setup del padre
+15:03:35.578 INFO  AUTOMATION - Comenzando el test: fallatest
+15:03:35.625 INFO  AUTOMATION - navegando a :https://the-internet.herokuapp.com/
+15:03:37.867 INFO  AUTOMATION - Obteniendo url actual
+15:03:37.870 INFO  AUTOMATION - Verificando la url
+15:03:38.291 INFO  AUTOMATION - Test fallido: fallatest
+15:03:38.466 INFO  AUTOMATION - Teardown del padre
+15:03:38.766 INFO  AUTOMATION - Setup del padre
+15:03:40.268 INFO  AUTOMATION - Comenzando el test: tecnovatest
+15:03:40.284 INFO  AUTOMATION - Navegando a : https://opencart.abstracta.us/index.php?route=account/login
+15:03:41.356 INFO  AUTOMATION - Obteniendo url actual
+15:03:41.365 INFO  AUTOMATION - verificando la url
+15:03:41.585 INFO  AUTOMATION - Test fallido: tecnovatest
+15:03:41.679 INFO  AUTOMATION - Teardown del padre
+15:03:41.891 INFO  AUTOMATION - Suite finalizada: Surefire suite
