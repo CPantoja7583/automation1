@@ -1,0 +1,37 @@
+15:03:32.659 INFO  AUTOMATION - Suite iniciada: Surefire suite
+15:03:32.742 DEBUG AUTOMATION - Borrando las carpetas de evidencia
+15:03:32.981 INFO  AUTOMATION - Setup del padre
+15:03:32.981 DEBUG AUTOMATION - Inicializando  el drive
+15:03:35.386 DEBUG AUTOMATION - Maximizando pantalla
+15:03:35.424 DEBUG AUTOMATION - Borrando cookies
+15:03:35.442 DEBUG AUTOMATION - Seteando implicit wait de 5 segundos
+15:03:35.449 DEBUG AUTOMATION - Asignando driver al webdriver provider
+15:03:35.578 INFO  AUTOMATION - Comenzando el test: fallatest
+15:03:35.625 INFO  AUTOMATION - navegando a :https://the-internet.herokuapp.com/
+15:03:37.867 INFO  AUTOMATION - Obteniendo url actual
+15:03:37.870 INFO  AUTOMATION - Verificando la url
+15:03:37.893 DEBUG AUTOMATION - beforeTestStop
+15:03:38.291 INFO  AUTOMATION - Test fallido: fallatest
+15:03:38.291 DEBUG AUTOMATION - Tomando capturas
+15:03:38.432 DEBUG AUTOMATION - tomando page source
+15:03:38.432 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+15:03:38.466 INFO  AUTOMATION - Teardown del padre
+15:03:38.466 DEBUG AUTOMATION - Matando el driver
+15:03:38.766 INFO  AUTOMATION - Setup del padre
+15:03:38.767 DEBUG AUTOMATION - Inicializando  el drive
+15:03:40.206 DEBUG AUTOMATION - Maximizando pantalla
+15:03:40.252 DEBUG AUTOMATION - Borrando cookies
+15:03:40.268 DEBUG AUTOMATION - Seteando implicit wait de 5 segundos
+15:03:40.268 DEBUG AUTOMATION - Asignando driver al webdriver provider
+15:03:40.268 INFO  AUTOMATION - Comenzando el test: tecnovatest
+15:03:40.284 INFO  AUTOMATION - Navegando a : https://opencart.abstracta.us/index.php?route=account/login
+15:03:41.356 INFO  AUTOMATION - Obteniendo url actual
+15:03:41.365 INFO  AUTOMATION - verificando la url
+15:03:41.369 DEBUG AUTOMATION - beforeTestStop
+15:03:41.585 INFO  AUTOMATION - Test fallido: tecnovatest
+15:03:41.585 DEBUG AUTOMATION - Tomando capturas
+15:03:41.679 DEBUG AUTOMATION - tomando page source
+15:03:41.679 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+15:03:41.679 INFO  AUTOMATION - Teardown del padre
+15:03:41.679 DEBUG AUTOMATION - Matando el driver
+15:03:41.891 INFO  AUTOMATION - Suite finalizada: Surefire suite
