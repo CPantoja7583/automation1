@@ -1,37 +1,48 @@
-15:03:32.659 INFO  AUTOMATION - Suite iniciada: Surefire suite
-15:03:32.742 DEBUG AUTOMATION - Borrando las carpetas de evidencia
-15:03:32.981 INFO  AUTOMATION - Setup del padre
-15:03:32.981 DEBUG AUTOMATION - Inicializando  el drive
-15:03:35.386 DEBUG AUTOMATION - Maximizando pantalla
-15:03:35.424 DEBUG AUTOMATION - Borrando cookies
-15:03:35.442 DEBUG AUTOMATION - Seteando implicit wait de 5 segundos
-15:03:35.449 DEBUG AUTOMATION - Asignando driver al webdriver provider
-15:03:35.578 INFO  AUTOMATION - Comenzando el test: fallatest
-15:03:35.625 INFO  AUTOMATION - navegando a :https://the-internet.herokuapp.com/
-15:03:37.867 INFO  AUTOMATION - Obteniendo url actual
-15:03:37.870 INFO  AUTOMATION - Verificando la url
-15:03:37.893 DEBUG AUTOMATION - beforeTestStop
-15:03:38.291 INFO  AUTOMATION - Test fallido: fallatest
-15:03:38.291 DEBUG AUTOMATION - Tomando capturas
-15:03:38.432 DEBUG AUTOMATION - tomando page source
-15:03:38.432 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
-15:03:38.466 INFO  AUTOMATION - Teardown del padre
-15:03:38.466 DEBUG AUTOMATION - Matando el driver
-15:03:38.766 INFO  AUTOMATION - Setup del padre
-15:03:38.767 DEBUG AUTOMATION - Inicializando  el drive
-15:03:40.206 DEBUG AUTOMATION - Maximizando pantalla
-15:03:40.252 DEBUG AUTOMATION - Borrando cookies
-15:03:40.268 DEBUG AUTOMATION - Seteando implicit wait de 5 segundos
-15:03:40.268 DEBUG AUTOMATION - Asignando driver al webdriver provider
-15:03:40.268 INFO  AUTOMATION - Comenzando el test: tecnovatest
-15:03:40.284 INFO  AUTOMATION - Navegando a : https://opencart.abstracta.us/index.php?route=account/login
-15:03:41.356 INFO  AUTOMATION - Obteniendo url actual
-15:03:41.365 INFO  AUTOMATION - verificando la url
-15:03:41.369 DEBUG AUTOMATION - beforeTestStop
-15:03:41.585 INFO  AUTOMATION - Test fallido: tecnovatest
-15:03:41.585 DEBUG AUTOMATION - Tomando capturas
-15:03:41.679 DEBUG AUTOMATION - tomando page source
-15:03:41.679 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
-15:03:41.679 INFO  AUTOMATION - Teardown del padre
-15:03:41.679 DEBUG AUTOMATION - Matando el driver
-15:03:41.891 INFO  AUTOMATION - Suite finalizada: Surefire suite
+10:50:53.809 INFO  AUTOMATION - Suite iniciada: Default Suite
+10:50:53.941 DEBUG AUTOMATION - Borrando las carpetas de evidencia
+10:50:54.298 INFO  AUTOMATION - Setup del padre
+10:50:54.305 DEBUG AUTOMATION - Inicializando  el drive
+10:50:59.502 DEBUG AUTOMATION - Maximizando pantalla
+10:50:59.570 DEBUG AUTOMATION - Borrando cookies
+10:50:59.597 DEBUG AUTOMATION - Seteando implicit wait de 5 segundos
+10:50:59.607 DEBUG AUTOMATION - Asignando driver al webdriver provider
+10:50:59.882 INFO  AUTOMATION - Comenzando el test: loginFailtest
+10:50:59.921 INFO  AUTOMATION - Navegando a : https://web-kabeli-gldfds-frontend-dev-1.azurewebsites.net/login/
+10:51:01.448 INFO  AUTOMATION - Escribiendo Username
+10:51:02.461 INFO  AUTOMATION - veririficando mensaje de error
+10:51:14.668 DEBUG AUTOMATION - beforeTestStop
+10:51:14.688 INFO  AUTOMATION - Test exitoso: loginFailtest
+10:51:14.688 DEBUG AUTOMATION - Tomando capturas
+10:51:14.987 INFO  AUTOMATION - Teardown del padre
+10:51:14.988 DEBUG AUTOMATION - Matando el driver
+10:51:15.260 INFO  AUTOMATION - Setup del padre
+10:51:15.260 DEBUG AUTOMATION - Inicializando  el drive
+10:51:16.687 DEBUG AUTOMATION - Maximizando pantalla
+10:51:16.760 DEBUG AUTOMATION - Borrando cookies
+10:51:16.778 DEBUG AUTOMATION - Seteando implicit wait de 5 segundos
+10:51:16.784 DEBUG AUTOMATION - Asignando driver al webdriver provider
+10:51:16.791 INFO  AUTOMATION - Comenzando el test: loginOktest
+10:51:16.799 INFO  AUTOMATION - Navegando a : https://web-kabeli-gldfds-frontend-dev-1.azurewebsites.net/login/
+10:51:18.125 INFO  AUTOMATION - Escribiendo Username
+10:51:24.192 DEBUG AUTOMATION - beforeTestStop
+10:51:24.728 INFO  AUTOMATION - Test fallido: loginOktest
+10:51:24.728 DEBUG AUTOMATION - Tomando capturas
+10:51:24.928 DEBUG AUTOMATION - tomando page source
+10:51:24.928 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+10:51:24.960 INFO  AUTOMATION - Teardown del padre
+10:51:24.960 DEBUG AUTOMATION - Matando el driver
+10:51:25.355 INFO  AUTOMATION - Setup del padre
+10:51:25.356 DEBUG AUTOMATION - Inicializando  el drive
+10:51:27.578 DEBUG AUTOMATION - Maximizando pantalla
+10:51:27.628 DEBUG AUTOMATION - Borrando cookies
+10:51:27.649 DEBUG AUTOMATION - Seteando implicit wait de 5 segundos
+10:51:27.657 DEBUG AUTOMATION - Asignando driver al webdriver provider
+10:51:27.664 INFO  AUTOMATION - Comenzando el test: recuperartest
+10:51:27.670 INFO  AUTOMATION - Navegando a : https://web-kabeli-gldfds-frontend-dev-1.azurewebsites.net/login/
+10:51:29.852 INFO  AUTOMATION - click recueprar contraseña
+10:51:31.781 DEBUG AUTOMATION - beforeTestStop
+10:51:31.782 INFO  AUTOMATION - Test exitoso: recuperartest
+10:51:31.783 DEBUG AUTOMATION - Tomando capturas
+10:51:31.896 INFO  AUTOMATION - Teardown del padre
+10:51:31.896 DEBUG AUTOMATION - Matando el driver
+10:51:32.154 INFO  AUTOMATION - Suite finalizada: Default Suite

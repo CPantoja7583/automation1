@@ -1,1 +1,1 @@
-./mvnw clean test -Dtest="AutomationTests" surefire-report:report
+./mvnw clean test -Dtest="PDCTests" surefire-report:report
