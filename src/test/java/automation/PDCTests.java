@@ -80,7 +80,7 @@ public class PDCTests extends BaseTest {
 
     private void rellenarFormularioLogin(String username, String password) {
 
-        final var urlpdc = "https://web-kabeli-gldfds-frontend-dev-1.azurewebsites.net/login/";
+        final var urlpdc = "https://web-kabeli-gldfds-frontend-qa-1.azurewebsites.net/logingit a";
 
         Logs.info("Navegando a : %s", urlpdc);
         driver.get(urlpdc);
