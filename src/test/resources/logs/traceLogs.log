@@ -1,19 +1,17 @@
-21:02:36.557 INFO  AUTOMATION - Suite iniciada: Default Suite
-21:02:36.663 DEBUG AUTOMATION - Borrando las carpetas de evidencia
-21:02:36.891 INFO  AUTOMATION - Setup del padre
-21:02:36.899 DEBUG AUTOMATION - Inicializando  el drive
-21:02:42.317 DEBUG AUTOMATION - Maximizando pantalla
-21:02:42.427 DEBUG AUTOMATION - Borrando cookies
-21:02:42.489 DEBUG AUTOMATION - Seteando implicit wait de 5 segundos
-21:02:42.510 DEBUG AUTOMATION - Asignando driver al webdriver provider
-21:02:42.955 INFO  AUTOMATION - Comenzando el test: loginOktest
-21:02:43.049 INFO  AUTOMATION - Navegando a : https://web-kabeli-gldfds-frontend-dev-1.azurewebsites.net/login/
-21:02:48.049 INFO  AUTOMATION - Escribiendo Username
-21:02:50.711 DEBUG AUTOMATION - beforeTestStop
-21:02:51.609 INFO  AUTOMATION - Test fallido: loginOktest
-21:02:51.610 DEBUG AUTOMATION - Tomando capturas
-21:02:51.819 DEBUG AUTOMATION - tomando page source
-21:02:51.819 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
-21:02:51.879 INFO  AUTOMATION - Teardown del padre
-21:02:51.879 DEBUG AUTOMATION - Matando el driver
-21:02:57.193 INFO  AUTOMATION - Suite finalizada: Default Suite
+11:44:36.135 INFO  AUTOMATION - Suite iniciada: Default Suite
+11:44:36.248 DEBUG AUTOMATION - Borrando las carpetas de evidencia
+11:44:36.455 INFO  AUTOMATION - Setup del padre
+11:44:36.463 DEBUG AUTOMATION - Inicializando  el drive
+11:44:39.894 DEBUG AUTOMATION - Maximizando pantalla
+11:44:39.959 DEBUG AUTOMATION - Borrando cookies
+11:44:39.985 DEBUG AUTOMATION - Seteando implicit wait de 5 segundos
+11:44:39.995 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:44:40.236 INFO  AUTOMATION - Comenzando el test: loginOktest
+11:44:40.286 INFO  AUTOMATION - Navegando a : https://web-kabeli-gldfds-frontend-dev-1.azurewebsites.net/login/
+11:44:50.509 INFO  AUTOMATION - Escribiendo Username
+11:45:02.700 DEBUG AUTOMATION - beforeTestStop
+11:45:02.709 INFO  AUTOMATION - Test exitoso: loginOktest
+11:45:02.709 DEBUG AUTOMATION - Tomando capturas
+11:45:02.859 INFO  AUTOMATION - Teardown del padre
+11:45:02.859 DEBUG AUTOMATION - Matando el driver
+11:45:03.133 INFO  AUTOMATION - Suite finalizada: Default Suite
