@@ -11,7 +11,7 @@ public class PDCTests extends BaseTest {
 
     @Test
     public void loginOktest() {
-        rellenarFormularioLogin("QA", "Segura12323");
+        rellenarFormularioLogin("carlo", "Segura12323");
 
         // Encuentra el elemento con texto "Dashboard"
         WebElement errorLabel = driver.findElement
