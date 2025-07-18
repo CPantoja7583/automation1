@@ -85,6 +85,7 @@ public class PDCTests extends BaseTest {
         WebElement monitoreoLink =
                 driver.findElement(By.xpath("//a[.//span[text()='Monitoreo']]"));
 
+        Logs.info("Haciendo click en monitoreo");
         monitoreoLink.click();
 
         sleep(10000);
@@ -99,6 +100,7 @@ public class PDCTests extends BaseTest {
         WebElement consultaDatos =
                 driver.findElement(By.xpath("//a[.//span[text()='Consulta de datos']]"));
 
+        Logs.info("Haciendo click en consulta de datos");
         consultaDatos.click();
 
         sleep(10000);
