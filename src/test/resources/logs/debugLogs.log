@@ -1,17 +1,17 @@
-11:54:06.191 INFO  AUTOMATION - Suite iniciada: Default Suite
-11:54:06.281 DEBUG AUTOMATION - Borrando las carpetas de evidencia
-11:54:06.496 INFO  AUTOMATION - Setup del padre
-11:54:06.501 DEBUG AUTOMATION - Inicializando  el drive
-11:54:08.874 DEBUG AUTOMATION - Maximizando pantalla
-11:54:08.915 DEBUG AUTOMATION - Borrando cookies
-11:54:08.945 DEBUG AUTOMATION - Seteando implicit wait de 5 segundos
-11:54:08.958 DEBUG AUTOMATION - Asignando driver al webdriver provider
-11:54:09.159 INFO  AUTOMATION - Comenzando el test: loginOktest
-11:54:09.205 INFO  AUTOMATION - Navegando a : https://web-kabeli-gldfds-frontend-qa-1.azurewebsites.net/logingit a
-11:54:10.715 INFO  AUTOMATION - Escribiendo Username
-11:54:24.104 DEBUG AUTOMATION - beforeTestStop
-11:54:24.117 INFO  AUTOMATION - Test exitoso: loginOktest
-11:54:24.118 DEBUG AUTOMATION - Tomando capturas
-11:54:24.227 INFO  AUTOMATION - Teardown del padre
-11:54:24.228 DEBUG AUTOMATION - Matando el driver
-11:54:24.551 INFO  AUTOMATION - Suite finalizada: Default Suite
+13:23:38.310 INFO  AUTOMATION - Suite iniciada: Default Suite
+13:23:38.382 DEBUG AUTOMATION - Borrando las carpetas de evidencia
+13:23:38.562 INFO  AUTOMATION - Setup del padre
+13:23:38.572 DEBUG AUTOMATION - Inicializando  el drive
+13:23:41.017 DEBUG AUTOMATION - Maximizando pantalla
+13:23:41.078 DEBUG AUTOMATION - Borrando cookies
+13:23:41.101 DEBUG AUTOMATION - Seteando implicit wait de 5 segundos
+13:23:41.113 DEBUG AUTOMATION - Asignando driver al webdriver provider
+13:23:41.318 INFO  AUTOMATION - Comenzando el test: consultaDeDatostest
+13:23:41.352 INFO  AUTOMATION - Navegando a : https://web-kabeli-gldfds-frontend-qa-1.azurewebsites.net/logingit a
+13:23:42.643 INFO  AUTOMATION - Escribiendo Username
+13:23:55.516 DEBUG AUTOMATION - beforeTestStop
+13:23:55.528 INFO  AUTOMATION - Test exitoso: consultaDeDatostest
+13:23:55.528 DEBUG AUTOMATION - Tomando capturas
+13:23:55.636 INFO  AUTOMATION - Teardown del padre
+13:23:55.636 DEBUG AUTOMATION - Matando el driver
+13:23:55.912 INFO  AUTOMATION - Suite finalizada: Default Suite

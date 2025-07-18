@@ -78,6 +78,34 @@ public class PDCTests extends BaseTest {
 
     }
 
+    @Test
+    public void monitoreotest() {
+        rellenarFormularioLogin("carlo", "Segura12323");
+
+        WebElement monitoreoLink =
+                driver.findElement(By.xpath("//a[.//span[text()='Monitoreo']]"));
+
+        monitoreoLink.click();
+
+        sleep(10000);
+
+
+    }
+
+    @Test
+    public void consultaDeDatostest() {
+        rellenarFormularioLogin("carlo", "Segura12323");
+
+        WebElement consultaDatos =
+                driver.findElement(By.xpath("//a[.//span[text()='Consulta de datos']]"));
+
+        consultaDatos.click();
+
+        sleep(10000);
+
+
+    }
+
     private void rellenarFormularioLogin(String username, String password) {
 
         final var urlpdc = "https://web-kabeli-gldfds-frontend-qa-1.azurewebsites.net/logingit a";
