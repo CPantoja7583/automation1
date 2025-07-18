@@ -1,21 +1,8 @@
-10:50:53.809 INFO  AUTOMATION - Suite iniciada: Default Suite
-10:50:54.298 INFO  AUTOMATION - Setup del padre
-10:50:59.882 INFO  AUTOMATION - Comenzando el test: loginFailtest
-10:50:59.921 INFO  AUTOMATION - Navegando a : https://web-kabeli-gldfds-frontend-dev-1.azurewebsites.net/login/
-10:51:01.448 INFO  AUTOMATION - Escribiendo Username
-10:51:02.461 INFO  AUTOMATION - veririficando mensaje de error
-10:51:14.688 INFO  AUTOMATION - Test exitoso: loginFailtest
-10:51:14.987 INFO  AUTOMATION - Teardown del padre
-10:51:15.260 INFO  AUTOMATION - Setup del padre
-10:51:16.791 INFO  AUTOMATION - Comenzando el test: loginOktest
-10:51:16.799 INFO  AUTOMATION - Navegando a : https://web-kabeli-gldfds-frontend-dev-1.azurewebsites.net/login/
-10:51:18.125 INFO  AUTOMATION - Escribiendo Username
-10:51:24.728 INFO  AUTOMATION - Test fallido: loginOktest
-10:51:24.960 INFO  AUTOMATION - Teardown del padre
-10:51:25.355 INFO  AUTOMATION - Setup del padre
-10:51:27.664 INFO  AUTOMATION - Comenzando el test: recuperartest
-10:51:27.670 INFO  AUTOMATION - Navegando a : https://web-kabeli-gldfds-frontend-dev-1.azurewebsites.net/login/
-10:51:29.852 INFO  AUTOMATION - click recueprar contraseña
-10:51:31.782 INFO  AUTOMATION - Test exitoso: recuperartest
-10:51:31.896 INFO  AUTOMATION - Teardown del padre
-10:51:32.154 INFO  AUTOMATION - Suite finalizada: Default Suite
+21:02:36.557 INFO  AUTOMATION - Suite iniciada: Default Suite
+21:02:36.891 INFO  AUTOMATION - Setup del padre
+21:02:42.955 INFO  AUTOMATION - Comenzando el test: loginOktest
+21:02:43.049 INFO  AUTOMATION - Navegando a : https://web-kabeli-gldfds-frontend-dev-1.azurewebsites.net/login/
+21:02:48.049 INFO  AUTOMATION - Escribiendo Username
+21:02:51.609 INFO  AUTOMATION - Test fallido: loginOktest
+21:02:51.879 INFO  AUTOMATION - Teardown del padre
+21:02:57.193 INFO  AUTOMATION - Suite finalizada: Default Suite

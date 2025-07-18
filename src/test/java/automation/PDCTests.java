@@ -7,12 +7,15 @@ import utilities.BaseTest;
 import utilities.Logs;
 
 public class PDCTests extends BaseTest {
+
+
     @Test
     public void loginOktest() {
         rellenarFormularioLogin("carlo", "Segura12323");
 
         // Encuentra el elemento con texto "Dashboard"
-        WebElement errorLabel = driver.findElement(By.xpath("//span[contains(@class, '_label_') and text()='Dashboard']"));
+        WebElement errorLabel = driver.findElement
+                (By.xpath("//span[contains(@class, '_label_') and text()='Dashboard']"));
 
         // Validaciones
         softAssert.assertTrue(errorLabel.isDisplayed(), "El label 'Dashboard' no está visible.");
@@ -52,14 +55,26 @@ public class PDCTests extends BaseTest {
 
     @Test
     public void recuperartest() {
+        Logs.info("ingresado a PDC");
         ingresarPDC();
 
-        WebElement recuperarLink = driver.findElement(By.cssSelector("div._recoveryPassword_16mp0_16 > a"));
+        sleep(100);
+
+
+        WebElement recuperarLink =
+                driver.findElement(By.xpath("//a[contains(text(),'Recuperar')]"));
 
         Logs.info("click recueprar contraseña");
         recuperarLink.click();
 
+        sleep(100);
+
+        Logs.info("Escribiendo Email en recuperar contraseña");
+        driver.findElement(By.id("input-field")).sendKeys("carlo123");
+
+
         sleep(1000);
+
 
     }
 
@@ -85,11 +100,13 @@ public class PDCTests extends BaseTest {
     }
 
     private void ingresarPDC() {
-        final var urlpdc = "https://web-kabeli-gldfds-frontend-dev-1.azurewebsites.net/login/";
+        final var urlpdc = "https://web-kabeli-gldfds-frontend-qa-1.azurewebsites.net/login";
 
         Logs.info("Navegando a : %s", urlpdc);
         driver.get(urlpdc);
 
     }
-
 }
+
+
+
